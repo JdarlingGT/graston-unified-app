@@ -1,0 +1,7 @@
+name = "graston-unified-app"
+main = "src/index.ts"
+compatibility_date = "2025-09-10"
+
+[site]
+bucket = "frontend/dist"
+entry-point = "src"

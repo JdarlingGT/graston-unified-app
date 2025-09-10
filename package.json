@@ -1,0 +1,21 @@
+{
+  "name": "graston-unified-app",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "npm run build:frontend && wrangler publish",
+    "build:frontend": "cd frontend && npm run build",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "hono": "^3.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.2"
+  }
+}
